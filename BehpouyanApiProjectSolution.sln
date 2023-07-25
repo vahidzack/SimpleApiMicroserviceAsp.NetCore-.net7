@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.33913.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BehpouyanApiProject", "BehpouyanApiProject\BehpouyanApiProject.csproj", "{0E8CA8EA-7D59-425A-AC66-26AC840108EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BehpouyanApiProject", "BehpouyanApiProject\BehpouyanApiProject.csproj", "{0E8CA8EA-7D59-425A-AC66-26AC840108EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{BA185B9B-1A3F-47B5-A056-CDEB48E9F45D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "TestProject1\TestProject1.csproj", "{BA185B9B-1A3F-47B5-A056-CDEB48E9F45D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegTest", "IntegTest\IntegTest.csproj", "{67E2713C-FCA4-4F93-835F-5552BF3D03BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BA185B9B-1A3F-47B5-A056-CDEB48E9F45D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA185B9B-1A3F-47B5-A056-CDEB48E9F45D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA185B9B-1A3F-47B5-A056-CDEB48E9F45D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67E2713C-FCA4-4F93-835F-5552BF3D03BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67E2713C-FCA4-4F93-835F-5552BF3D03BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67E2713C-FCA4-4F93-835F-5552BF3D03BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67E2713C-FCA4-4F93-835F-5552BF3D03BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
